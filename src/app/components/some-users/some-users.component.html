@@ -1,0 +1,11 @@
+<div class="container">
+    <h1>{{some.user.firstname}}</h1>
+    <p>{{some.user.lastname}}</p>
+    <p>{{some.user.email}}</p>
+    <button class="btn btn-primary" (click)="submit()">Submit</button>
+</div>
+<label class="form-label">
+    UserName:
+    <input class="form-control" type="text" [(ngModel)]="username">
+</label>
+<h1>{{username}}</h1>
