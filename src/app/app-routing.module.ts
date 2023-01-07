@@ -5,7 +5,7 @@ import { SomeUsersComponent } from './components/some-users/some-users.component
 
 
 const routes: Routes = [
-  {path:'',component:HomeComponent},
+  {path:'',redirectTo: 'home', pathMatch: 'full'},
   {path:'home',component:HomeComponent},
   {path:'user',component:SomeUsersComponent}
 
